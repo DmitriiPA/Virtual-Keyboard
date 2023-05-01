@@ -36,7 +36,7 @@ BODY.innerHTML = `
     <div class="key">p</div>
     <div class="key">[</div>
     <div class="key">]</div>
-    <div class="key">\</div>
+    <div class="key">\\</div>
     <div class="key tab-del not-letter">Del</div>
   </div>
   <div class="key-line">
@@ -52,7 +52,7 @@ BODY.innerHTML = `
     <div class="key">l</div>
     <div class="key">;</div>
     <div class="key">'</div>
-    <div class="key Enter not-letter">Enter</div>
+    <div class="key enter not-letter">Enter</div>
   </div>
   <div class="key-line">
     <div class="key backspace not-letter">Shift</div>
@@ -67,7 +67,7 @@ BODY.innerHTML = `
     <div class="key">.</div>
     <div class="key">/</div>
     <div class="key not-letter">&#11165;</div>
-    <div class="key Enter not-letter">Shift</div>
+    <div class="key enter not-letter">Shift</div>
   </div>
   <div class="key-line">
     <div class="key not-letter">Ctrl</div>
