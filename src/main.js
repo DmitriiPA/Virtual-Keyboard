@@ -1,4 +1,6 @@
-let BODY = document.querySelector("#body");
+const BODY = document.querySelector("#body");
+const KEYS = document.querySelectorAll(".key")
+
 
 function load() {
 BODY.classList.add("body"); 
@@ -86,5 +88,11 @@ BODY.innerHTML = `
 </div>
 `
 }
-
 document.addEventListener("DOMContentLoaded", load)
+
+document.addEventListener('keydown', function(e) {
+  let textarea = document.querySelector("#textarea");
+  textarea.innerHTML += e.key.toString()
+})
+
+
