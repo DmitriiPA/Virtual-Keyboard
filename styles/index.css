@@ -1,0 +1,67 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.info {
+  margin: 10px;
+}
+
+
+.textarea {
+  width: 700px;
+  height: 180px;
+}
+
+.key-board {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+  width: 800px;
+  height: 270px;
+  border: solid 6px gray;
+  border-radius: 20px;
+  gap: 6px;
+  padding: 5px ;
+}
+
+.key-line {
+  display: flex;
+  gap: 7px;
+}
+
+.key {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  width: 40px;
+  background-color: rgb(165, 165, 165);
+  color: white;
+  border: solid 3px gray;
+  border-radius: 5px;
+  font-size: x-large;
+  transition: 0.1s;
+}
+
+.key.active {
+  background-color:  rgb(145, 36, 36);
+}
+
+.key.backspace{
+  width: 110px;
+}
+
+.tab-del {
+  width: 50px;
+}
+
+.enter {
+  width: 95px;
+}
+
+.space {
+  width: 370px;
+}
